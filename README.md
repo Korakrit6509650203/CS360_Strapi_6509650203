@@ -146,6 +146,19 @@
 
     -หลังจากทำการ set up เบื้องต้นเสร็จไปแล้ว ให้พิมพ์ git clone https://github.com/ชื่อ git/ชื่อ repository
     -cd เข้าไปในโฟลเดอร์นั้น
+    -พิมพ์ npm install
+    -พิมพ์ nano .env
+    ใส่ข้อความ
+        HOST=0.0.0.0
+        PORT=1337
+        APP_KEYS="toBeModified1,toBeModified2"
+        API_TOKEN_SALT=tobemodified
+        ADMIN_JWT_SECRET=tobemodified
+        TRANSFER_TOKEN_SALT=tobemodified
+        JWT_SECRET=tobemodified
+    ลงไป
+    -Ctrl + S
+    -Ctrl + X
     -พิมพ์ npm run develop
     -หลังจากนั้นก็รอสร้างไฟล์เว็บแอพลิเคชั่น Strapi เสร็จ
     -จากนั้นเข้า Google พิมพ์ http://3.27.221.154:1337 ก็จะขึ้นเว็บแอพลิเคชั่น Strapi เรียบร้อย
